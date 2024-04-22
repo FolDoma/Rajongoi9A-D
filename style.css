@@ -1,0 +1,19 @@
+.text {
+    color: #e2e0df;
+}
+
+.background {
+    background-color: #191615;
+}
+
+.primary {
+    color: #ADCCBB;
+}
+
+.secondary {
+    color: #404B68;
+}
+
+.accent {
+    color: #f1201f !important;
+}
