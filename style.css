@@ -95,23 +95,6 @@ main{
     display: block;
 }
 
-.banner{
-    background-color: white;
-    text-transform: uppercase;
-    -webkit-text-fill-color: transparent;
-    background-image: url(Media/heading-texture_1heading-texture.webp);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-clip: text;
-    background-clip: text;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    font-family: Bebas Neue, sans-serif;
-    font-size: 3.88rem;
-    font-weight: 600;
-    line-height: 1;
-
-    text-align: center;
-
+.yellowish{
+    filter: invert(60%) sepia(11%) saturate(5107%) hue-rotate(336deg) brightness(95%) contrast(92%);
 }
