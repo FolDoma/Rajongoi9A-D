@@ -7,8 +7,6 @@
     --bg-secondary: #141418;
 }
 body{
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(128,128,128,1) 80%);
     margin: 0;
     padding: 0;
 }
@@ -28,11 +26,7 @@ main{
 }
 
 #body{
-    background-image: url(Media/bugatti_upscale.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: contain;
-    
+    background-color: white;
 }
 
 .navbar{
