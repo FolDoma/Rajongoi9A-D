@@ -27,6 +27,14 @@ main{
     padding: 1rem;
 }
 
+#body{
+    background-image: url(Media/bugatti_upscale.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    
+}
+
 .navbar{
     width: 5rem;
     height: 100vh;
@@ -105,4 +113,5 @@ main{
     line-height: 1;
 
     text-align: center;
+
 }
