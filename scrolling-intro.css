@@ -18,10 +18,6 @@ header {
   height: 100vh;
   left: 0;
   width: 100%;
-  
-  
-  /* safari hack */
-  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
 }
 
 .container_solid {
@@ -34,7 +30,7 @@ header {
 .title_wrapper {
   position: fixed;
   display: block;  
-  margin: auto;
+  margin: none;
   width: 100%;
   /* center the text wrapper vertically */
   top: 50%;
@@ -47,10 +43,6 @@ header {
     background-color: white;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
-    background-image: url(Media/heading-texture_1heading-texture.webp);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
     padding-top: .5rem;
@@ -59,14 +51,14 @@ header {
     font-size: 6rem;
     font-weight: 600;
     line-height: 1;
-
     text-align: center;
 }
 
 .container_solid .title_wrapper h1 {
   /* the text background */
   background: url(Media/bugatti_upscale.jpg);
-  background-size: 100vw auto;
+  height: 100%;
+  /*background-size: 100vw auto;*/
   background-position: center;
   
   /* clip the text is possible */
@@ -82,7 +74,8 @@ header {
 .container_image {
   /* Grab a free image from unsplash */
   background-image: url(Media/bugatti_upscale.jpg);
-  background-size:100vw auto;
+  height: 100%;
+  /*background-size:100vw auto;*/
   background-position: center;
   background-attachment: fixed;
   
@@ -90,7 +83,7 @@ header {
   top: 100vh;
 }
 
-.container_image .title_wrapper h1 {
+.container_image .title_wrapper h1{
   color: white;
 }
 
