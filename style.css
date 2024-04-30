@@ -16,7 +16,7 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-track{
     background: #1e1e24;
 }
-bofy::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb{
     background: #ffd700;
 }
 
@@ -91,4 +91,15 @@ main{
 
 .yellowish{
     filter: invert(60%) sepia(11%) saturate(5107%) hue-rotate(336deg) brightness(95%) contrast(92%);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
 }
