@@ -12,6 +12,7 @@ html {
 body{
     margin: 0;
     padding: 0;
+    color: #111;
 }
 body::-webkit-scrollbar{
     width: 0.25rem;
@@ -29,7 +30,7 @@ main{
 }
 
 #body{
-    background-color: white;
+    background-color: #1111;
 }
 
 .navbar{
@@ -163,4 +164,17 @@ main{
 .logo img{
     width: 200px;
     height: 200px;
+}
+
+#img1 { 
+display: none;
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
+height: 100vh;
+overflow-y: auto;
+background-color: #000;
 }
