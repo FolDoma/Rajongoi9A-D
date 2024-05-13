@@ -6,6 +6,9 @@
     --bg-primary: #23232e;
     --bg-secondary: #141418;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     margin: 0;
     padding: 0;
