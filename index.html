@@ -98,7 +98,30 @@
             individuals in the realms of combat sports and professional athletics, showcasing their resilience and
             determination to achieve success in their respective fields.</p>  
     </section>
-    <div style="background-color: black; height: 100vh;" id="second"></div>
+    <div style="background-color: #111; height: 100vh;" id="second"></div>
+
+    <script>
+        const pressed = [];
+        const secretCode = "boobs";
+  
+        window.addEventListener("keyup", e => {
+          console.log(e.key);
+          pressed.push(e.key);
+          pressed.splice(
+            -secretCode.length - 1,
+            pressed.length - secretCode.length
+          );
+  
+          if (pressed.join("").includes(secretCode)) {
+            document.getElementById('img1').style.display = "flex";
+            setTimeout(() => {
+        document.getElementById('img1').style.display = "none";
+      }, 150);
+          }
+        });
+    </script>
+    <img id="img1" src="Media/andrew_tate boobs.png" alt="">
+
 </body>
 
 </html>
