@@ -38,7 +38,7 @@ main{
 }
 
 .snap{
-    scroll-snap-align: start;
+    /*scroll-snap-align: start;*/
 }
 
 #body{
