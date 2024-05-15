@@ -14,6 +14,10 @@ body{
     padding: 0;
     color: #111;
 }
+html, body{
+
+    scroll-snap-type: y proximity;
+}
 body::-webkit-scrollbar{
     width: 0.25rem;
 }
@@ -27,6 +31,14 @@ body::-webkit-scrollbar-thumb{
 main{
     margin-left: 5rem;
     padding: 1rem;
+}
+
+.sections{
+    scroll-snap-type: y mandatory;
+}
+
+.snap{
+    scroll-snap-align: start;
 }
 
 #body{
@@ -177,9 +189,10 @@ margin: auto;
 height: 100vh;
 overflow-y: auto;
 background-color: #000;
+z-index: 100;
 }
 
-.first {
+#first {
     min-height: 100vh;
     padding: 2em;
     margin: auto;
@@ -205,24 +218,3 @@ background-color: #000;
     background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,1) 100%);
     background-blend-mode: darken;
 }
-
-
-/*section::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: -50%;
-    left: -50%;
-    z-index: -1;
-    background: url(Media/BG/9e3cd5cc507fe3178437c1b6fe720c16.png);
-    transform: rotate(90deg);
-}*/
-  
-  section h2 {
-    font-family: 'Fraunces', serif;
-  }
-  
-  section p {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  }
