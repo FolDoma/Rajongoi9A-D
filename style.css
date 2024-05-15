@@ -34,7 +34,7 @@ main{
 }
 
 .sections{
-    scroll-snap-type: y mandatory;
+    /*scroll-snap-type: y mandatory;*/
 }
 
 .snap{
