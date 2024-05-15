@@ -72,8 +72,8 @@ header {
 }
 
 .container_image {
-  /* Grab a free image from unsplash */
   background-image: url(Media/bugatti_upscale.jpg);
+  background-color: black;
   height: 100%;
   /*background-size:100vw auto;*/
   background-position: center;
