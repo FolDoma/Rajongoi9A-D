@@ -98,7 +98,7 @@ main {
 }
 
 .nav-link img {
-    min-width: 2rem;
+    width: 2rem;
     margin: 0 1.5rem;
 }
 
@@ -120,7 +120,7 @@ main {
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.3ch;
-    width: 100%;
+
 }
 
 .logo1 img {
@@ -130,6 +130,7 @@ main {
 
 .navbar:hover .logo1 img {
     transform: rotate(-180deg);
+    width: inherit;
 }
 
 /*Small screens*/
