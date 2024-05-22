@@ -216,6 +216,7 @@ main {
 
 .bg {
     background-image: url(Media/BG/9e3cd5cc507fe3178437c1b6fe720c16.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
