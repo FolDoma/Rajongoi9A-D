@@ -93,7 +93,7 @@ main{
 
 .nav-link img {
     width: 2rem;
-    /*margin: 0 1.5rem;*/
+    margin: 0 1.5rem;
 }
 
 .navbar:hover{
