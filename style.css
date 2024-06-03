@@ -207,6 +207,7 @@ z-index: 100;
     background-image: url(Media/BG/9e3cd5cc507fe3178437c1b6fe720c16.png);
     background-repeat: no-repeat;
     background-position: center; 
+    background-size: cover;
     position: relative;
     z-index: -1;
 }
