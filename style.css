@@ -90,9 +90,10 @@ main{
     margin-left: 1rem;
 }
 
-.nav-link img{
-    min-width: 2rem;
-    margin: 0 1.5rem;
+
+.nav-link img {
+    width: 2rem;
+    /*margin: 0 1.5rem;*/
 }
 
 .navbar:hover{
@@ -113,7 +114,7 @@ main{
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.3ch;
-    width: 100%;
+
 }
 
 .logo1 img{
@@ -123,6 +124,7 @@ main{
 
 .navbar:hover .logo1 img{
     transform: rotate(-180deg);
+    width: inherit;
 }
 
 /*Small screens*/
@@ -234,6 +236,34 @@ h4{
     color: white;
     padding-left: 1.5em;
     margin: auto;
-    max-width: 900px;
+    max-width: 1200px;
     min-height: 150px;
+    font-size: 25px;
 }
+.content-center a{
+    color: #fff;
+    transition: 0.3s;
+}
+
+.content-center a:hover {
+    text-shadow: 0 0 20px #fff;
+    color: white !important;
+}
+
+.join-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.join-button a {
+    padding: 12px 24px; 
+    background-color: gold; 
+    color: black; 
+    text-decoration: none; 
+    border-radius: 6px; 
+  }
+
+  .join-button a:hover {
+    background-color: gold;
+  }
